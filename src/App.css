@@ -1,38 +1,213 @@
-.App {
-  text-align: center;
+/* CSS for form */
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* CSS for form group */
+.form-group {
+    margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* CSS for form labels */
+label {
+    font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* CSS for form input fields */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+/* CSS for form input placeholders */
+input::placeholder {
+    color: #aaa;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* CSS for form checkbox */
+.form-check {
+    margin-top: 20px;
+}
+
+/* CSS for form checkbox label */
+.form-check-label {
+    margin-left: 5px;
+}
+
+/* CSS for form submit button */
+button[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* CSS for form submit button on hover */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* CSS for form text */
+.form-text {
+    font-size: 12px;
+    color: #888;
+}
+
+/* CSS for form-control class */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+
+
+/* CSS for navbar */
+.navbar {
+    background-color: #333;
+}
+
+/* CSS for navbar brand */
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* CSS for navbar brand on hover */
+.navbar-brand:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* CSS for navbar expand */
+.navbar-expand-lg {
+    padding: 20px;
+}
+
+/* CSS for navbar dark */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* CSS for navbar dark on hover */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+/* CSS for navbar background */
+.bg-dark {
+    background-color: #333;
+}
+
+/* CSS for navbar-nav class */
+.navbar-nav {
+    margin-left: 10px;
+}
+
+/* CSS for navbar-nav class when hover */
+.navbar-nav:hover {
+    background-color: #ddd;
+}
+
+/* CSS for navbar-nav class when active */
+.navbar-nav.active {
+    background-color: #555;
+}
+
+/* CSS for nav-link class */
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* CSS for nav-link class when hover */
+.nav-link:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+/* CSS for nav-link class when active */
+.nav-link.active {
+    color: #fff;
+}
+
+/* CSS for navbar-toggler class */
+.navbar-toggler {
+    border-color: #ddd;
+}
+
+/* CSS for navbar-toggler class when hover */
+.navbar-toggler:hover {
+    background-color: #ddd;
+}
+
+/* CSS for navbar-toggler class when active */
+.navbar-toggler.active {
+    background-color: #555;
+}
+
+/* CSS for collapsed navbar*/
+.navbar-collapse {
+    background-color: #333;
+    padding: 20px;
+}
+
+/* CSS for collapsed navbar-nav class */
+.navbar-collapse .navbar-nav {
+    margin-left: 10px;
+}
+
+/* CSS for collapsed navbar-nav class when hover */
+.navbar-collapse .navbar-nav:hover {
+    background-color: #ddd;
+}
+
+/* CSS for collapsed navbar-nav class when active */
+.navbar-collapse .navbar-nav.active {
+    background-color: #555;
+}
+
+/* CSS for collapsed nav-link class */
+.navbar-collapse .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.ProductList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* CSS for form */
+.product {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.btn-grp {
+    padding: 10px;
 }
